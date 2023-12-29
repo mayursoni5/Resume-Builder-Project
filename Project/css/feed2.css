@@ -1,0 +1,115 @@
+* {
+    font-size: 18px;
+    margin: 1px;
+}
+
+/* Midlle Template Section */
+
+.temp_midlle {
+    border: 3px solid black;
+    height: 40%;
+    padding: 5px;
+
+}
+
+/* feed section 2 */
+.heading {
+    /* margin-bottom: 520px; */
+}
+
+.feed {
+    overflow-y: scroll;
+    height: 600px;
+}
+
+.feed form {
+    margin-bottom: 20px;
+    /* border: 5px solid red; */
+    height: 580px;
+}
+
+.feed2 {
+    /* border: 5px solid red; */
+
+    padding: 30px;
+
+
+
+}
+
+#CARRIER_OBJECTIVE_textarea {
+    margin-top: 5px;
+}
+
+.temp_midlle_table {
+    margin-top: 7PX;
+}
+
+.temp_midlle_tabletable,
+th,
+td {
+    border: 1px solid black;
+    text-align: center;
+}
+
+.feed2_eduction_Qualifiction {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.eduction_Qualifiction_feed2_name {
+    display: flex;
+    justify-content: space-around;
+}
+
+.eduction_Qualifiction_feed2_name_in {
+    display: flex;
+    justify-content: space-between;
+}
+
+.temp_lastsection01 {
+    display: flex;
+}
+
+
+.ts_heading {
+    margin-bottom: 20px;
+    font-size: 40px;
+    
+
+}
+
+
+.ts_heading_name_form03_name01 {
+    margin-right: 40px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.ts_heading_name_form03_in {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 25px;
+    margin-bottom: 50px;
+
+}
+.ts_heading_name_form03_name02{
+    margin-right: 20px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.ts_heading_name_form03_in02 {
+
+    display: flex;
+    justify-content: space-between;
+
+    margin-left: 25px;
+    
+}
+.footer1{
+    
+
+}

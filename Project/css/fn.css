@@ -1,0 +1,295 @@
+body {
+    margin: 0%;
+    padding: 0%;
+
+}
+
+.main {
+
+    border: 2px solid rgb(6, 6, 6);
+    min-height: 700px;
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 25px;
+    background-color:#cce7f1;
+}
+
+/* template section */
+.temp {
+    border: 5px solid rgb(252, 0, 172);
+    width: 45%;
+    padding: 10px;
+}
+
+/* Template upper section */
+.temp_up{
+    border: 3px solid rgb(26, 9, 21);
+    height: 25%;
+    display: flex;
+    padding: 5px;
+    justify-content: space-between;
+}
+
+/* Template, upper section, left side,(information) */
+.temp_up_information{
+    /* border: 5px solid rgb(177, 226, 79); */
+    width: 75%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    overflow: hidden;
+
+}
+
+.temp_up_information_name{
+    /* border: 5px solid rgb(212, 5, 5); */
+    display: flex;
+
+}
+.temp_up_information_fname{
+    /* border: 5px solid rgba(37, 169, 192, 0.652); */
+    margin-right: 5px;
+    margin-left: 5px;
+    
+}
+
+.temp_up_information_lname{
+    /* border: 5px solid rgb(17, 233, 42); */
+    
+}
+
+.temp_up_information_email{
+    display: flex;
+    flex-wrap: wrap;
+}
+#email_ch{
+    margin-left: 5px;
+}
+
+.temp_up_information_phone{
+    display: flex;
+}
+#phone_ch{
+    margin-left: 5px;
+}
+.temp_up_information_address{
+    display: flex;
+}
+#address_ch{
+    margin-left: 5px;
+}
+
+/* Template, upper section, right side,(photo) */
+.temp_up_photo{
+    border: 5px solid rgb(0, 0, 0);
+    width: 25%;
+   
+
+}
+
+
+
+
+/* formfeeding section  */
+.feed {
+    /* border: 2px solid rgb(234, 66, 206); */
+    width: 70%;
+    padding: 30px;
+}
+
+
+
+.name {
+    display: inline-block;
+    justify-content: space-between;
+    height: 50px;
+    width: 350px;
+
+}
+
+.in1 {
+
+    width: 350px;
+    height: 30px;
+    background-color:white;
+}
+
+.lname1 {
+
+    display: inline-block;
+    margin-left: px;
+
+}
+
+.proffesion {
+    margin-top: 25px;
+}
+
+.in2 {
+    width: 790px;
+    height: 30px;
+
+}
+
+.city {
+    display: inline-block;
+    margin-top: 20px;
+
+}
+
+.city1 {
+    display: inline-block;
+}
+
+.in3 {
+    height: 30px;
+    width: 380px;
+}
+
+.state {
+    display: inline-block;
+}
+
+
+.pincode {
+    display: inline-block;
+
+}
+
+.in4 {
+    height: 30px;
+    width: 400px;
+}
+
+.in5 {
+    height: 30px;
+    width: 200px;
+}
+.Phone{
+    display: inline-block;
+    margin-top: 20px;
+}
+.PHONE1{
+    display: inline-block;
+}
+.EMAIL{
+    display: inline-block;
+   
+}
+.EMAIL1{
+    display: inline-block;
+    margin-left: px;
+}
+.in6{
+    width: 370px;
+    height: 30px;
+}
+.in7{
+    width: 415px;
+    height: 30px;
+}
+.in8{
+    width: 435px;
+    height: 30px;
+}
+.profile{
+
+   margin-bottom: 60px; 
+
+}
+
+.profile img{
+    border: 5px solid black;
+    border-radius: 50%;
+        display: block;
+         margin-left: auto;
+        margin-right: auto; 
+        height: 200px;
+        margin-bottom: 12px; 
+        
+        
+      
+}
+.file-upload{
+
+    display: block;
+    margin-left: 45%;
+   margin-right: auto; 
+   text-decoration: none;
+   
+}
+.center{
+    margin-left: 45%;
+    
+
+}
+.nextbutton{
+    margin-top: 15px;
+width: 12%;
+margin-left:88%;
+border: 2px solid black;
+
+}
+.nextbutton a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+
+  }
+  .nextbutton a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  .nextbutton {
+    background-color: #e7f5ff;
+    color: white;}
+
+    /* .temp-main{
+        display: flex;
+        flex-wrap: wrap;
+        height: 100%;
+        width: 100%;
+
+        
+    } */
+
+/* 
+    .temp-photo{
+        border: 2px solid rgb(126, 0, 252); 
+        width: 100%;
+        padding: 10px;
+    
+    }
+    .temp-feed{
+        border: 2px solid  sandybrown;
+        width: 70%;
+        
+    }
+    .actaul-photo{
+    
+        height: 30%;
+        border: 2px solid rgb(17, 206, 83); 
+        padding: 5px;
+        padding-left: 20px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+   
+
+    }
+    
+    .template_photo{
+        display: flex;
+        
+
+        border: 5px solid black;
+        height: 85%; 
+        /* Center and scale the image  */
+        background-position: center;
+        background-repeat: no-repeat;
+        /* background-size: cover; */
+        background-size: 100% 100%;
+        align-items: flex-end;
+    } */
+   

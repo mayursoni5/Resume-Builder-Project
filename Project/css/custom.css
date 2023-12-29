@@ -1,0 +1,19 @@
+.template{
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
+#about-sc{
+   width: 50%;
+}
+#preview-sc{
+    width: 50%;
+    min-height: 40px;
+    position: sticky;
+
+
+}
+.cv-form{
+    height: 500px;
+    overflow: scroll;
+}
